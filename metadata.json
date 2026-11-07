@@ -1,0 +1,8 @@
+{
+  "name": "TruthLens AI",
+  "description": "Intelligent media authenticity verification platform to detect deepfakes, manipulated media, and synthetic content.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

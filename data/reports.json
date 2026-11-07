@@ -1,0 +1,211 @@
+[
+  {
+    "id": "test-rpt-1794047906282",
+    "fileName": "automated-test-file.png",
+    "fileHashSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fileType": "image",
+    "mimeType": "image/png",
+    "fileSizeBytes": 1024,
+    "analyzedAt": "2026-11-07T10:38:26.282Z",
+    "modelName": "TruthLens Test Suite",
+    "processingTimeMs": 120,
+    "classification": "Likely Authentic",
+    "confidenceScore": 88,
+    "riskLevel": "Low Concern",
+    "classificationRationale": "Automated test suite verification.",
+    "authenticityOverview": "Test overview.",
+    "plainEnglishExplanation": "Test explanation.",
+    "checksPerformed": [],
+    "findings": [],
+    "signals": [],
+    "stats": {
+      "detectionMethodology": "Test Suite"
+    },
+    "modelsUsed": [],
+    "disclaimer": "Test report."
+  },
+  {
+    "id": "tl-doc-1794047835408-h4hid",
+    "fileName": "document.txt",
+    "fileHashSha256": "740cc6ea56856bffabdac9f7027ac10e8436d1cda525f75f49293483821fa002",
+    "fileType": "document",
+    "mimeType": "text/plain",
+    "fileSizeBytes": 42,
+    "analyzedAt": "2026-11-07T10:37:15.408Z",
+    "modelName": "TruthLens Document Forensic Engine (pdf-parse + Gemini 3.8 Flash)",
+    "processingTimeMs": 9525,
+    "classification": "Likely Authentic",
+    "confidenceScore": 92,
+    "riskLevel": "Low Concern",
+    "classificationRationale": "No definitive indicators of generative synthesis, localized cloning, or digital tampering were observed in the examined samples.",
+    "authenticityOverview": "File exhibits natural optical and structural characteristics with no observable synthetic markers.",
+    "plainEnglishExplanation": "We examined the file's visual patterns, sensor noise, and formatting. Everything observed conforms to natural capture physics and standard documentation without evidence of tampering.",
+    "checksPerformed": [
+      {
+        "id": "chk-doc-signature",
+        "name": "Document Structure & Signature Validation",
+        "category": "integrity",
+        "status": "completed",
+        "details": "Detected document format: text/plain. SHA-256: 740cc6ea56856bff...",
+        "toolOrModel": "TruthLens Document Parser"
+      },
+      {
+        "id": "chk-doc-txt-parse",
+        "name": "Plaintext Encoding & Structure Audit",
+        "category": "metadata",
+        "status": "completed",
+        "details": "Analyzed UTF-8 text (42 characters, 5 words).",
+        "toolOrModel": "Text Parser"
+      },
+      {
+        "id": "chk-doc-integrity-audit",
+        "name": "Structural Typographic & Splicing Integrity Audit",
+        "category": "ai_synthesis",
+        "status": "completed",
+        "details": "Audited clauses, banking numbers, and typographic alignment across 1 pages. Differentiated AI assistance from malicious tampering.",
+        "toolOrModel": "Gemini 3.8 Flash Document Engine"
+      }
+    ],
+    "findings": [
+      {
+        "id": "FIND-001",
+        "title": "Insufficient Content for Full Forensics",
+        "category": "metadata",
+        "severity": "low",
+        "nature": "ai_interpretive_finding",
+        "source": "document_parser",
+        "explanation": "The document contains only a minimal placeholder text snippet without extended clauses, numerical tables, or structural document elements to analyze for splicing or inconsistencies.",
+        "technicalObservation": "Document contains a single short phrase 'TruthLens verification sample text content' across 1 page with no identifiable financial, legal, or transactional records.",
+        "aiInterpretation": "The sample appears to be a baseline verification test string or placeholder stub rather than an altered or synthetic fraudulent record.",
+        "locationOrTimestamp": "Page 1, Paragraph 1",
+        "indicators": [
+          "Sparse text content",
+          "Placeholder phrase structure"
+        ],
+        "limitations": "Extremely short text fragments cannot reliably reveal semantic contradictions, typographic shifts, or forensic alterations."
+      }
+    ],
+    "signals": [
+      {
+        "name": "Semantic Consistency",
+        "score": 95,
+        "status": "normal",
+        "observation": "No contradictory statements, altered dates, or clashing terms are present in the provided snippet."
+      },
+      {
+        "name": "Financial & Routing Integrity",
+        "score": 90,
+        "status": "normal",
+        "observation": "No banking routing numbers, account figures, or financial tables are present to show splicing or alteration."
+      },
+      {
+        "name": "Structural & Typographical Continuity",
+        "score": 85,
+        "status": "normal",
+        "observation": "Uniform text string without visible encoding anomalies or spliced formatting fragments."
+      },
+      {
+        "name": "Metadata Validation",
+        "score": 70,
+        "status": "unverified",
+        "observation": "Producer is unknown and modification dates are absent, consistent with plain-text or stripped sample files."
+      }
+    ],
+    "metadataExtracted": {},
+    "stats": {
+      "pagesAnalyzed": 1,
+      "extractedWordCount": 5,
+      "detectionMethodology": "Document Typographic & Content Integrity Audit (1 page(s) inspected)"
+    },
+    "modelsUsed": [
+      {
+        "name": "pdf-parse & mammoth parser",
+        "version": "1.1.1",
+        "role": "Binary container & document dictionary extraction",
+        "status": "active"
+      },
+      {
+        "name": "Gemini 3.8 Flash Document Engine",
+        "version": "3.8.0",
+        "role": "Semantic and formatting tamper analysis",
+        "status": "active"
+      }
+    ],
+    "disclaimer": "TruthLens AI evaluates stylistic, typographic, and formatting signals. Automated text and document assessment should be weighed alongside institutional issuer verification."
+  },
+  {
+    "id": "test-rpt-1794047745346",
+    "fileName": "automated-test-file.png",
+    "fileHashSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fileType": "image",
+    "mimeType": "image/png",
+    "fileSizeBytes": 1024,
+    "analyzedAt": "2026-11-07T10:35:45.346Z",
+    "modelName": "TruthLens Test Suite",
+    "processingTimeMs": 120,
+    "classification": "Likely Authentic",
+    "confidenceScore": 88,
+    "riskLevel": "Low Concern",
+    "classificationRationale": "Automated test suite verification.",
+    "authenticityOverview": "Test overview.",
+    "plainEnglishExplanation": "Test explanation.",
+    "checksPerformed": [],
+    "findings": [],
+    "signals": [],
+    "stats": {
+      "detectionMethodology": "Test Suite"
+    },
+    "modelsUsed": [],
+    "disclaimer": "Test report."
+  },
+  {
+    "id": "test-rpt-1794047521073",
+    "fileName": "automated-test-file.png",
+    "fileHashSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fileType": "image",
+    "mimeType": "image/png",
+    "fileSizeBytes": 1024,
+    "analyzedAt": "2026-11-07T10:32:01.073Z",
+    "modelName": "TruthLens Test Suite",
+    "processingTimeMs": 120,
+    "classification": "Likely Authentic",
+    "confidenceScore": 88,
+    "riskLevel": "Low Concern",
+    "classificationRationale": "Automated test suite verification.",
+    "authenticityOverview": "Test overview.",
+    "plainEnglishExplanation": "Test explanation.",
+    "checksPerformed": [],
+    "findings": [],
+    "signals": [],
+    "stats": {
+      "detectionMethodology": "Test Suite"
+    },
+    "modelsUsed": [],
+    "disclaimer": "Test report."
+  },
+  {
+    "id": "test-rpt-1794047320560",
+    "fileName": "automated-test-file.png",
+    "fileHashSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "fileType": "image",
+    "mimeType": "image/png",
+    "fileSizeBytes": 1024,
+    "analyzedAt": "2026-11-07T10:28:40.560Z",
+    "modelName": "TruthLens Test Suite",
+    "processingTimeMs": 120,
+    "classification": "Likely Authentic",
+    "confidenceScore": 88,
+    "riskLevel": "Low Concern",
+    "classificationRationale": "Automated test suite verification.",
+    "authenticityOverview": "Test overview.",
+    "plainEnglishExplanation": "Test explanation.",
+    "checksPerformed": [],
+    "findings": [],
+    "signals": [],
+    "stats": {
+      "detectionMethodology": "Test Suite"
+    },
+    "modelsUsed": [],
+    "disclaimer": "Test report."
+  }
+]
